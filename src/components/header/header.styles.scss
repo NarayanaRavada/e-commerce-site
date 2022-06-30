@@ -7,8 +7,15 @@
 
   .logo-container {
     height: 100%;
-    width: 70px;
-    padding: 25px;
+    display: flex;
+    align-items: flex-end;
+    font-size: 2.5em;
+
+    .logo {
+      width: 70px;
+      height: 100%;
+      margin: 0 10px;
+    }
   }
 
   .options {
@@ -20,7 +27,7 @@
 
     .option {
       padding: 10px 15px;
-	  cursor: pointer;
+      cursor: pointer;
     }
   }
 }
