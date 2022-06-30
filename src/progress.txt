@@ -1,0 +1,51 @@
+-----------------
+| App structure |
+-----------------
+
+- Header
+   - links { shop, contact us }
+   - sign in/out
+   - cart icon
+   - drop down menu
+- HomePage
+   - Menulist
+     - Menuitem
+- ShopPage
+   - Collection Preview
+     - Collection Item
+- Auth Page
+   - sign in
+     - form
+       - from input
+     - custom buttom
+     - google login
+   - sign up
+     - form
+       - from input
+     - custom buttom
+
+---------
+| Redux |
+---------
+
+- Store 
+  # root reducer + middle ware { fired just after the actions }
+
+# the global state
+- root-reducer
+  # state of user
+  - user-reducer
+    - actions
+      - set current user
+
+------------
+| Firebase |
+------------
+
+- Auth { inbuilt }
+  - google Auth
+  - email password Auth
+
+# database
+  - users
+    - user { name, email, uid }
